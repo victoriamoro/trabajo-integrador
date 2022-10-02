@@ -1,0 +1,244 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  max-width: 2000px;
+  margin: 20px auto;
+  padding: 15px 30px;
+  margin-top: 40px;
+}
+#navbar {
+  margin: 0%;
+  padding: 0%;
+}
+#navbar-container {
+  background-color: rgb(53, 58, 64);
+}
+#logo {
+  width: 100px;
+  height: 60px;
+  margin-left: 20%;
+}
+.navbar-brand {
+  color: white;
+  display: inline;
+}
+.navbar-brand:hover {
+  font-size: 22px;
+}
+#nav-title-web {
+  text-decoration: none;
+  color: white;
+}
+ul {
+  display: inline;
+  width: 100%;
+  height: 60px;
+  padding-top: 10px;
+}
+.nav-link {
+  color: white;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+.nav-link:hover {
+  font-size: larger;
+  color: white;
+}
+.nav-link:active {
+  font-weight: bold;
+}
+.active {
+  font-weight: bold;
+}
+.nav-link:visited {
+  color: white;
+}
+#link-tickets {
+  color: rgb(41, 167, 68);
+}
+#mobile-nav {
+  display: none;
+}
+#navbar-brand-mobile {
+  text-decoration: none;
+  color: white;
+}
+.card-img-overlay {
+  margin-top: 20%;
+  margin-right: 12%;
+  margin-left: auto;
+  color: white;
+  text-align: right;
+  width: 37%;
+}
+#bsas-img1,
+#bsas-img2,
+#bsas-img3 {
+  filter: brightness(50%);
+}
+.carousel-caption d-none d-md-block {
+  margin-top: 220px;
+  margin-right: 7%;
+  margin-left: 55%;
+}
+.card-text {
+  font-weight: 300;
+}
+#btn-default {
+  border: white solid 1px;
+  color: white;
+}
+#btn-default:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.btn-success {
+  background-color: rgb(41, 167, 68);
+}
+#carouselExampleCaptions {
+  margin-bottom: 2%;
+}
+.speakersTitle {
+  text-align: center;
+}
+.card-group {
+  margin: 0% 10%;
+}
+.card {
+  margin: 1% 2%;
+  width: 20%;
+}
+.bottom-card {
+  border-radius: 0px;
+  background-color: rgb(53, 58, 64);
+  color: white;
+  width: 100%;
+  margin-left: 0px;
+  margin-top: 20px;
+}
+.col-lef,
+.col-right,
+card-body {
+  width: 50%;
+}
+.honolulu {
+  width: 100%;
+}
+
+.bottom-card-text {
+  font-size: 13px;
+}
+.link-speaker {
+  color: black;
+}
+.speaker {
+  text-align: center;
+}
+.speaker-form {
+  display: flex;
+  align-content: center;
+}
+.name,
+.lastname {
+  display: inline;
+  width: 20%;
+}
+.speak.about {
+  width: 40%;
+}
+.speaker-form {
+  width: 50%;
+  margin: auto;
+}
+.fitem {
+  margin: 2%;
+}
+.ftext {
+  margin: -2% 2% 2% 2%;
+}
+input[type="text"] {
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  width: 48%;
+  height: 30px;
+}
+input[type="submit"] {
+  width: 100%;
+}
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+#name {
+  margin-right: 2%;
+}
+#lastname {
+  margin-left: 2%;
+}
+.form-text {
+  text-align: start;
+}
+.btn-enviar {
+  background-color: rgb(150, 201, 62);
+  border-color: rgb(150, 201, 62);
+}
+
+#navbarSupportedContent {
+  background-color: rgb(29, 67, 88);
+  height: 70px;
+}
+#ul-footer {
+  font-size: 12px;
+}
+@media screen and (max-width: 1200px) {
+  .card-img-overlay {
+    margin: 10% 2% auto 5%;
+    width: 80%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .card {
+    margin: 2% 2%;
+    width: 100%;
+  }
+  #navbar {
+    display: none;
+  }
+  #mobile-nav {
+    display: block;
+  }
+  #bsas-card {
+    overflow: auto;
+  }
+  #navbar-brand-title-mobile {
+    font-size: larger;
+  }
+  #logo-mobile {
+    width: 100px;
+    height: 60px;
+    margin-left: 0%;
+  }
+  #navbar-brand-mobile {
+    font-size: 20px;
+  }
+  #navbar-brand-mobile:hover {
+    color: white;
+    font-size: 22px;
+  }
+  #carouselExampleCaptions {
+    min-height: 400px;
+    background-color: black;
+  }
+  .carousel-inner {
+    overflow: visible;
+  }
+}

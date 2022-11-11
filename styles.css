@@ -199,6 +199,30 @@ textarea {
 #ul-footer {
   font-size: 12px;
 }
+/*buytickets styles----------------------------------------*/
+.bold {
+  font-weight: bold;
+}
+.discount-card {
+  text-align: center;
+}
+.card-discount-group {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: auto;
+}
+.center {
+  text-align: center;
+}
+
+#email-buytickets {
+  width: 40%;
+}
+#btnBorrar,
+#btnResumen {
+  background-color: rgb(150, 201, 62);
+  color: white;
+}
 @media screen and (max-width: 1200px) {
   .card-img-overlay {
     margin: 10% 2% auto 5%;
